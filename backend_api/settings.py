@@ -33,17 +33,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # 'corsheaders',
-    # 'rest_framework',
-    # 'readings.apps.ReadingsConfig',
-    
+    'corsheaders',
+    'rest_framework',
+    'readings.apps.ReadingsConfig',    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'readings',
+     
 ]
 
 MIDDLEWARE = [
